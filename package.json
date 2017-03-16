@@ -1,0 +1,15 @@
+{
+  "name": "shipandco-tasks",
+  "version": "1.0.0",
+  "description": "Shipandco scheduled tasks",
+  "scripts": {
+    "test": "node ./check-sync/test.js",
+    "deploy.cron": "node ./check-sync/deploy/deploy-cron.js",
+    "deploy.web": "node ./check-sync/deploy/deploy-web.js"
+  },
+  "author": "Michael Rambeau",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}

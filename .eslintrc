@@ -1,0 +1,26 @@
+{
+  "extends" : [
+    "standard",
+  ],
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "camelcase": 0,
+    "curly": 0,
+    "import/no-unresolved": 2,
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/default": 2,
+    "import/export": 2,
+    "no-console": 0
+  },
+  "settings": {
+    "import/resolve": {
+      "extensions": [ ".js"]
+    },
+    "import/extensions": [
+      ".js"
+    ]
+  }
+}
